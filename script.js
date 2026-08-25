@@ -8,7 +8,6 @@ const supabaseClient = window.supabase.createClient(
 if ('scrollRestoration' in history) {
     history.scrollRestoration = 'manual';
 }
-
 window.addEventListener('load', () => {
     setTimeout(() => {
         window.scrollTo(0, 0);
